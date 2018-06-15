@@ -1,0 +1,15 @@
+{
+  "name":         "MySQL",
+  "version":      "0.1",
+  "description":  "Io bindings for MySQL.",
+  "author":       "Min-hee Hong",
+  "website":      "http://MySQL-project.org/",
+  "readme":       "README.md",
+  "protos":       ["MySQL"],
+  "dependencies": {
+    "libs":     ["mysqlclient"],
+    "headers":  ["mysql.h"],
+    "protos":   [],
+    "packages": []
+  }
+}
