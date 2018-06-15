@@ -4,12 +4,12 @@ multi-user SQL database server. IoMySQL is a MySQL binding for Io,
 by <a href="http://dahlia.pe.kr/">Min-hee Hong</a>.
 
 ```Io
-my := MySQL establish(&quot;localhost&quot;, &quot;user&quot;, &quot;password&quot;, &quot;database&quot;)
+my := MySQL establish("localhost", "user", "password", "database")
 
 # Get rows by Map
-my queryThenMap(&quot;SELECT * FROM rel&quot;) foreach(at(&quot;col&quot;) println)
+my queryThenMap("SELECT * FROM rel") foreach(at("col") println)
 # Get rows by List
-my query(&quot;SELECT * FROM rel&quot;) foreach(at(0) println)
+my query("SELECT * FROM rel") foreach(at(0) println)
 
 my close
 ```
